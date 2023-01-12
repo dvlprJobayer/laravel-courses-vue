@@ -1,0 +1,13 @@
+.btn-primary {
+  @apply py-3 px-6 font-medium bg-[#2c383f] text-white rounded-lg text-lg;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-[1218px] mx-auto;
+  }
+}
